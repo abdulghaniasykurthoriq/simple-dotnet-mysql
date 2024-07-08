@@ -1,0 +1,15 @@
+@api_HostAddress = http://localhost:5045
+
+POST {{api_HostAddress}}/people
+Content-Type: application/json
+{
+    "name": ""
+}
+###
+
+GET {{api_HostAddress}}/people
+Content-Type: application/json
+###
+
+GET {{api_HostAddress}}/people/9
+Content-Type: application/json
